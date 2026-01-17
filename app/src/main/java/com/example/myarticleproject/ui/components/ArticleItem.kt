@@ -35,7 +35,7 @@ fun ArticleItem(article: Article) {
                 style = MaterialTheme.typography.bodyMedium
             )
             Spacer(Modifier.padding(8.dp))
-            Text( text = "Date {${article.date}}")
+            Text(text = "Date {${article.date}}")
         }
 
     }
